@@ -1,0 +1,23 @@
+{
+  "name": "final_neural_network",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./client-terminal/index.js",
+    "start-server": "nodemon ./server/index.js",
+    "start-prediction" : "node ./client-terminal/test.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.0",
+    "faker": "^6.6.6",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5",
+    "socket.io-client": "^4.7.5"
+  }
+}
